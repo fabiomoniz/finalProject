@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NarraTech_Insight.CommoUntil.InfluxDb.API\Narractech_Insight.CommoUntil.InfluxDbAPI.csproj" />
+    <ProjectReference Include="..\NarraTech_Insight.SharedObjects\NarraTech_Insight.SharedObjects.csproj" />
+  </ItemGroup>
+
+</Project>

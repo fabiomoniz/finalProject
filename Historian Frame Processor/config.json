@@ -1,0 +1,15 @@
+{
+  "RabbitMQHostName": "http://134.209.204.150:8086",
+  "RabbitMQUserName": "SimulatorUser",
+  "RabbitMQPassword": "2k6qzXbefhvtVsYEojztgkQ7UZqVk2UbmQmTgM2CauGfqDtTCcQLFKrcxYk3s36L",
+  "RabbitMQDatabaseName": "SimulatorTest",
+
+  "InfluxHostname": "http://134.209.204.150:8086",
+  "InfluxUsername": "SimulatorUser2",
+  "InfluxPWN": "2k6qzXbefhvtVsYEojztgkQ7UZqVk2UbmQmTgM2CauGfqDtTCcQLFKrcxYk3s36L",
+  "InfluxDatabaseName": "SimulatorTest",
+
+  "CalculationInterval": 2000,
+  "ModelPath": "C:\\Temp",
+  "TimeOut": 5000
+}

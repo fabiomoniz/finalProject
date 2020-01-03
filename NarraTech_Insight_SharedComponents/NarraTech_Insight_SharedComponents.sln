@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Narractech_Insight.CommoUntil.InfluxDbAPI", "NarraTech_Insight.CommoUntil.InfluxDb.API\Narractech_Insight.CommoUntil.InfluxDbAPI.csproj", "{3930490A-5BCE-4897-9200-6FF7AF0FE4B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarraTech_Insight.SharedObjects", "NarraTech_Insight.SharedObjects\NarraTech_Insight.SharedObjects.csproj", "{48D499E1-C73D-413C-B9C5-D13627642012}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarraTech_Insight.CommoUntil.RedisAPI", "NarraTech_Insight.CommoUntil.RedisAPI\NarraTech_Insight.CommoUntil.RedisAPI.csproj", "{92486355-00D1-4151-87FF-1DD43DD015E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit_Test_NarraTech_Insight", "Unit_Test_NarraTech_Insight\Unit_Test_NarraTech_Insight.csproj", "{598FA948-2709-48C6-8557-EF8E5AD4307B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarraTech_Insight.CommoUntil.RabbitMqAPI", "NarraTech_Insight.CommoUntil.RabbitMqAPI\NarraTech_Insight.CommoUntil.RabbitMqAPI.csproj", "{E6FEE6D1-8CD7-4729-9B36-C8170D6652E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{823528D1-09D9-4653-887A-A098A5837761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3930490A-5BCE-4897-9200-6FF7AF0FE4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3930490A-5BCE-4897-9200-6FF7AF0FE4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3930490A-5BCE-4897-9200-6FF7AF0FE4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3930490A-5BCE-4897-9200-6FF7AF0FE4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D499E1-C73D-413C-B9C5-D13627642012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D499E1-C73D-413C-B9C5-D13627642012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D499E1-C73D-413C-B9C5-D13627642012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D499E1-C73D-413C-B9C5-D13627642012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92486355-00D1-4151-87FF-1DD43DD015E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92486355-00D1-4151-87FF-1DD43DD015E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92486355-00D1-4151-87FF-1DD43DD015E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92486355-00D1-4151-87FF-1DD43DD015E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598FA948-2709-48C6-8557-EF8E5AD4307B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598FA948-2709-48C6-8557-EF8E5AD4307B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598FA948-2709-48C6-8557-EF8E5AD4307B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598FA948-2709-48C6-8557-EF8E5AD4307B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FEE6D1-8CD7-4729-9B36-C8170D6652E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FEE6D1-8CD7-4729-9B36-C8170D6652E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FEE6D1-8CD7-4729-9B36-C8170D6652E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FEE6D1-8CD7-4729-9B36-C8170D6652E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{823528D1-09D9-4653-887A-A098A5837761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823528D1-09D9-4653-887A-A098A5837761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823528D1-09D9-4653-887A-A098A5837761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823528D1-09D9-4653-887A-A098A5837761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D27B6F57-66C3-4298-9A32-048A40695FD8}
+	EndGlobalSection
+EndGlobal

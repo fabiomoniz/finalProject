@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NarraTech_Insight.CommoUntil.RedisAPI">
+      <HintPath>..\..\NarraTech_Insight_SharedComponents\NarraTech_Insight.CommoUntil.RedisAPI\bin\Debug\netcoreapp3.0\NarraTech_Insight.CommoUntil.RedisAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NarraTech_Insight.SharedObjects">
+      <HintPath>..\..\NarraTech_Insight_SharedComponents\NarraTech_Insight.SharedObjects\bin\Debug\netcoreapp3.0\NarraTech_Insight.SharedObjects.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

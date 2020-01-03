@@ -1,0 +1,31 @@
+<Frame>
+	<Payload sourcerName="" destinationName="" values="">
+		<Values amplitude="fload" quality="string">
+			<Value>
+				<Amplituide>2038940.39</Amplitude>
+				<Timestamp>2018-10-25:21:56:12</Timestamp>
+				<Quality>Good</Quality>
+			</Value>
+
+			<Value>
+				<Amplituide>2038940.39</Amplitude>
+				<Timestamp>2018-10-25:21:56:12</Timestamp>
+				<Quality>Good</Quality>
+			<Value>
+		</Values>
+	</Payload>
+	<Payload sourcerName="" destinationName="" values="">
+		<Values amplitude="int" quality="string">
+			<Value>
+				<Amplituide>153865</Amplitude>
+				<Timestamp>2018-10-25:21:56:12</Timestamp>
+				<Quality>Good</Quality>				
+			</Value>
+			<Value>
+				<Amplituide>185245</Amplitude>
+				<Timestamp>2018-10-25:21:56:12</Timestamp>
+				<Quality>Good</Quality>				
+			</Value>
+		</Values>
+	</Payload>
+</Frame>

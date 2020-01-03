@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Json.Net" Version="1.0.18" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MapFrame\MapFrame.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NarraTech_Insight.SharedObjects">
+      <HintPath>..\..\NarraTech_Insight_SharedComponents\NarraTech_Insight.SharedObjects\bin\Debug\netcoreapp3.0\NarraTech_Insight.SharedObjects.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
